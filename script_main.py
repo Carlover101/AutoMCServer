@@ -3,23 +3,28 @@ import time
 import socket
 
 os.system("chmod +x ServerStart.sh")
+os.system("chmod +x PServerInstall.sh")
+os.system("chmod +x SServerInstall.sh")
+os.system("chmod +x BServerInstall.sh")
+os.system("chmod +x VServerInstall.sh")
+
 vpsb = input("Would you like a 'Paper', 'Spigot', 'Bukkit', or 'Vanilla' Server? Choose 'Vanilla' if you don't know. ")
 
 if vpsb == "Paper":
-  os.system("python3 PServerInstall.py")
-  jar = "PServerInstall.py"
+  os.system("./PServerInstall.sh")
+  jar = "PServerInstall.sh"
   
 elif vpsb == "Spigot":
-  os.system("python3 SServerInstall.py")
-  jar = "SServerInstall.py"
+  os.system("./SServerInstall.sh")
+  jar = "SServerInstall.sh"
   
 elif vpsb == "Bukkit":
-  os.system("python3 BServerInstall.py")
-  jar = "BServerInstall.py"
+  os.system("./BServerInstall.sh")
+  jar = "BServerInstall.sh"
   
 elif vpsb == "Vanilla":
-  os.system("python3 VServerInstall.py")
-  jar = "VServerInstall.py"
+  os.system("./VServerInstall.sh")
+  jar = "VServerInstall.sh"
   
 def get_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -51,7 +56,7 @@ def EULA():
     
     if really == "Yes":
       print("Aborting...")
-      os.system(f"python3 {jar}")
+      os.system(f"./{jar}")
       exit()
       
     elif really == "No":
@@ -67,7 +72,7 @@ def EULA():
       
     else:
       print("Aborting...")
-      os.system(f"python3 {jar}")
+      os.system(f"./{jar}")
       exit()
 
 EULA()

@@ -13,6 +13,6 @@ if test -e "BServer.jar"; then
   java -Xmx1024M -Xms1024M -jar BServer.jar nogui
 fi
 
-if test -e "vServer.jar"; then
+if test -e "VServer.jar"; then
   java -Xmx1024M -Xms1024M -jar VServer.jar nogui
 fi

@@ -2,29 +2,37 @@ import os
 import time
 import socket
 
+def paper():
+  os.system('test -e PServer.jar && sudo rm PServer.jar || wget -O PServer.jar "https://papermc.io/api/v2/projects/paper/versions/1.16.5/builds/457/downloads/paper-1.16.5-457.jar"')
+
+def spigot():
+  os.system('test -e "SServer.jar" && sudo rm SServer.jar || wget -O SServer.jar "https://getbukkit.org/get/RD0y91OTotryPrElNQe4ovBLDNweoO5Z"')
+  
+def bukkit():
+  os.system('test -e "BServer.jar" && sudo rm BServer.jar || wget -O BServer.jar "https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.16.5.jar"')
+  
+def vanilla():
+  os.system('test -e "VServer.jar" && sudo rm VServer.jar || wget -O VServer.jar "https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar"')
+  
 os.system("chmod +x ServerStart.sh")
-os.system("chmod +x PServerInstall.sh")
-os.system("chmod +x SServerInstall.sh")
-os.system("chmod +x BServerInstall.sh")
-os.system("chmod +x VServerInstall.sh")
 
 vpsb = input("Would you like a 'Paper', 'Spigot', 'Bukkit', or 'Vanilla' Server? Choose 'Vanilla' if you don't know. ")
 
 if vpsb == "Paper":
-  os.system("./PServerInstall.sh")
-  jar = "PServerInstall.sh"
+  paper()
+  jar = "paper"
   
 elif vpsb == "Spigot":
-  os.system("./SServerInstall.sh")
-  jar = "SServerInstall.sh"
+  spigot()
+  jar = "spigot"
   
 elif vpsb == "Bukkit":
-  os.system("./BServerInstall.sh")
-  jar = "BServerInstall.sh"
+  bukkit()
+  jar = "bukkit"
   
 elif vpsb == "Vanilla":
-  os.system("./VServerInstall.sh")
-  jar = "VServerInstall.sh"
+  vanilla() 
+  jar = "vanilla"
   
 def get_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -56,7 +64,19 @@ def EULA():
     
     if really == "Yes":
       print("Aborting...")
-      os.system(f"./{jar}")
+      
+      if jar == "paper":
+        paper()
+        
+      elif jar == "spigot":
+        spigot()
+        
+      elif jar == "bukkit":
+        bukkit()
+        
+      elif jar == "vanilla":
+        vanilla()
+        
       exit()
       
     elif really == "No":
@@ -72,7 +92,19 @@ def EULA():
       
     else:
       print("Aborting...")
-      os.system(f"./{jar}")
+      
+      if jar == "paper":
+        paper()
+        
+      elif jar == "spigot":
+        spigot()
+        
+      elif jar == "bukkit":
+        bukkit()
+        
+      elif jar == "vanilla":
+        vanilla()
+        
       exit()
 
 EULA()

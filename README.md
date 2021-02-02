@@ -15,8 +15,16 @@ After you download the project:
 
 2. Open the command line and navigate to the directory.
 
-3. Run **python3 script_main.py** in the terminal. Note - If you don't have Python installed, go to [Python](https://www.python.org/downloads/) for help.
+3. Run **python3 script_main.py** in the terminal. Note - If you don't have Python installed, go to [python.org](https://www.python.org/downloads/) for help.
 
 4. The terminal will prompt you for your password, so make sure you know it.
 
-5. 
+5. The terminal will then ask you if you want to accept the EULA, type **Yes** or **No**.
+
+6. After a few more seconds it should then start up the minecraft server.
+
+7. Connect to it in minecraft by typing in the ip that the program will print out into the *server address* box.
+
+8. It should then pop up. Note - If it does not pop up or it says *Can't Resolve Hostname*/*Can't Connect To Server* then you aren't plugged into LAN/Ethernet.
+
+# Thanks Again! And, remember, questions/comments are appreciated.

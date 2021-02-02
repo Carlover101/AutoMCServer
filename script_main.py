@@ -54,6 +54,7 @@ ip = get_ip()
 
 def EULA():
   os.system("./ServerStart.sh")
+  os.system("clear")
   YN = input("Would you like to Accept the EULA? (Yes/No/Help) ")
 
   if YN == "Yes":
@@ -62,6 +63,10 @@ def EULA():
     rf.write("#Tue Feb 02 17:36:11 EST 2021\n")
     rf.write("eula=true")
     rf.close()
+    print(f"Type '{ip}' into the server address bar when the server has started.")
+    print("Starting Server...")
+    time.sleep(1)
+    os.system("clear")
     os.system("./ServerStart.sh")
     
   elif YN == "No":

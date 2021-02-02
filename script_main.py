@@ -57,7 +57,8 @@ def EULA():
   YN = input("Would you like to Accept the EULA? (Yes/No/Help) ")
 
   if YN == "Yes":
-    rf = open("EULA.txt","W+")
+    rf = open("eula.txt","w+")
+    rf.write("#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).","\n","#Tue Feb 02 17:36:11 EST 2021","\n","eula=true")
     
   elif YN == "No":
     really = input("Are you sure? (Yes/No) ")

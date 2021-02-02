@@ -2,23 +2,24 @@ import os
 import time
 import socket
 
+os.system("chmod +x ServerStart.sh")
 vpsb = input("Would you like a 'Paper', 'Spigot', 'Bukkit', or 'Vanilla' Server? Choose 'Vanilla' if you don't know. ")
 
 if vpsb == "Paper":
-  os.system('wget -O PServer.jar "https://papermc.io/api/v2/projects/paper/versions/1.16.5/builds/457/downloads/paper-1.16.5-457.jar"')
-  jar = "PServer.jar"
+  os.system("python3 PServerInstall.py")
+  jar = "PServerInstall.py"
   
 elif vpsb == "Spigot":
-  os.system('wget -O SServer.jar "https://getbukkit.org/get/RD0y91OTotryPrElNQe4ovBLDNweoO5Z"')
-  jar = "SServer.jar"
+  os.system("python3 SServerInstall.py")
+  jar = "SServerInstall.py"
   
 elif vpsb == "Bukkit":
-  os.system('wget -O BServer.jar "https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.16.5.jar"')
-  jar = "BServer.jar"
+  os.system("python3 BServerInstall.py")
+  jar = "BServerInstall.py"
   
 elif vpsb == "Vanilla":
-  os.system('wget -O VServer.jar "https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar"')
-  jar = "VServer.jar"
+  os.system("python3 VServerInstall.py")
+  jar = "VServerInstall.py"
   
 def get_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -39,6 +40,7 @@ def get_ip():
 ip = get_ip()
 
 def EULA():
+  os.system("./ServerStart.sh")
   YN = input("Would you like to Accept the EULA? (Yes/No/Help) ")
 
   if YN == "Yes":
@@ -49,7 +51,7 @@ def EULA():
     
     if really == "Yes":
       print("Aborting...")
-      os.system(f"sudo rm {jar}")
+      os.system(f"python3 {jar}")
       exit()
       
     elif really == "No":
@@ -65,6 +67,7 @@ def EULA():
       
     else:
       print("Aborting...")
-      os.system(f"sudo rm {jar}")
+      os.system(f"python3 {jar}")
       exit()
 
+EULA()

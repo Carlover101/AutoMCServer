@@ -1,5 +1,6 @@
 import os
 import time
+import socket
 
 vpsb = input("Would you like a 'Paper', 'Spigot', 'Bukkit', or 'Vanilla' Server? Choose 'Vanilla' if you don't know.")
 
@@ -16,3 +17,20 @@ elif vpsb == "Bukkit":
   
 elif vpsb == "Vanilla":
   os.system('wget -O VServer.jar "https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar" -P ~/MCServer')
+
+def get_ip():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        # doesn't even have to be reachable
+        s.connect(('10.255.255.255', 1))
+        IP = s.getsockname()[0]
+    except Exception:
+        IP = '127.0.0.1'
+    finally:
+        s.close()
+    return IP
+
+ip = get_ip()
+
+os.system("cd ~")
+os.system("cd MCServer")

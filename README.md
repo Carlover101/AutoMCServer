@@ -8,7 +8,7 @@ Thanks for using my work!
 
 # Instructions
 
-# **Warning: This only works on linux/debian devices**.  Windows is in Developement.
+# **Warning: This only works on linux/debian devices**.  Windows is in developement.
 
 After you download the project:
 1. Extract it into whatever folder you want to.

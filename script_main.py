@@ -2,7 +2,7 @@ import os
 import time
 import socket
 
-vpsb = input("Would you like a 'Paper', 'Spigot', 'Bukkit', or 'Vanilla' Server? Choose 'Vanilla' if you don't know.")
+vpsb = input("Would you like a 'Paper', 'Spigot', 'Bukkit', or 'Vanilla' Server? Choose 'Vanilla' if you don't know. ")
 
 os.system("sudo mkdir ~/MCServer")
 
@@ -20,17 +20,52 @@ elif vpsb == "Vanilla":
 
 def get_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
     try:
         # doesn't even have to be reachable
         s.connect(('10.255.255.255', 1))
         IP = s.getsockname()[0]
+        
     except Exception:
         IP = '127.0.0.1'
+        
     finally:
         s.close()
+        
     return IP
 
 ip = get_ip()
 
 os.system("cd ~")
 os.system("cd MCServer")
+
+def EULA():
+  YN = input("Would you like to Accept the EULA? (Yes/No/Help) ")
+
+  if YN == "Yes":
+    rf = open("EULA.txt","W+")
+    
+  elif YN == "No":
+    really = input("Are you sure? (Yes/No) ")
+    
+    if really == "Yes":
+      print("Aborting...")
+      time.sleep(1)
+      exit()
+      
+    elif really == "No":
+      EULA()
+      
+  elif YN == "Help":
+    print("The EULA is the the Mojang user license agreement. It is required to continue.")
+    time.sleep(2)
+    c = input("Go back? (Yes/No) ")
+    
+    if c == "Yes":	
+      EULA()
+      
+    else:
+      print("Aborting...")
+      time.sleep(1)
+      exit()
+

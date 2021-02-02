@@ -25,6 +25,6 @@ After you download the project:
 
 7. Connect to it in minecraft by typing in the ip that the program will print out into the *server address* box.
 
-8. It should then pop up. Note - If it does not pop up or it says *Can't Resolve Hostname*/*Can't Connect To Server* then you aren't plugged into LAN/Ethernet.
+8. It should then pop up. Note - If it does not pop up or it says *Can't Resolve Hostname*/*Can't Connect To Server* then you aren't plugged into LAN/Ethernet. Also, you can't use this server over Wi-fi if you want to make it public.
 
 # Thanks Again! And, remember, questions/comments are appreciated.

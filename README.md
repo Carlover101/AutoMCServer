@@ -15,6 +15,8 @@ After you download the project:
 
 2. Open the command line and navigate to the directory.
 
-3. Run **Python3 script_main.py** in the terminal.
+3. Run **python3 script_main.py** in the terminal. Note - If you don't have Python installed, go to [Python](https://www.python.org/downloads/) for help.
 
-4. The terminal will prompt you for your password, so make sure you know it
+4. The terminal will prompt you for your password, so make sure you know it.
+
+5. 

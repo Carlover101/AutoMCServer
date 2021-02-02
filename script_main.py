@@ -58,7 +58,9 @@ def EULA():
 
   if YN == "Yes":
     rf = open("eula.txt","w+")
-    rf.write("#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).","\n","#Tue Feb 02 17:36:11 EST 2021","\n","eula=true")
+    rf.write("#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).\n")
+    rf.write("#Tue Feb 02 17:36:11 EST 2021\n")
+    rf.write("eula=true")
     rf.close()
     os.system("./ServerStart.sh")
     

@@ -16,6 +16,6 @@ Red "x"          = not supported
 
 ## Reporting a Vulnerability
 
-Report a vulnerability by emailing me at my [email](zmanmustang2017@gmail.com)
+Report a vulnerability by emailing me at my [email](mailto:zmanmustang2017@gmail.com)
 
 You can expect an update within 48 hours.

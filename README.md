@@ -39,11 +39,11 @@ ________________________________________________________________________________
 
 ## Supported Versions
 
-Green check mark = supported
+:heavy_check_mark: = supported
 
-White check mark = last security update
+:white_check_mark: = last security update
 
-Red "x"          = not supported
+:x: = not supported
 
 | Version | Supported          |
 | ------- | ------------------ |

@@ -17,7 +17,7 @@ After you download the project:
 
 3. Run **python3 script_main.py** in the terminal. Note - If you don't have Python installed, go to [python.org](https://www.python.org/downloads/) for help.
 
-4. The terminal will prompt you for your password, so make sure you know it.
+4. When you are asked to choose between the four types of servers, choose the Vanilla option if you don't know what the others options are.
 
 5. The terminal will then ask you if you want to accept the EULA, type **Yes** or **No**.
 

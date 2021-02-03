@@ -30,3 +30,26 @@ After you download the project:
 *If you want to download the files from the command line instead, then type* **cd ~/Downloads** *then* **wget -O AutoMCServer.zip "https://github.com/Carlover101/AutoMCServer/archive/main.zip"** *and it will download the same files.*
 
 # Thanks Again! And, remember, questions/comments are appreciated.
+
+
+# Security Policy
+
+## Supported Versions
+
+Green check mark = supported
+
+White check mark = last security update
+
+Red "x"          = not supported
+
+| Version | Supported          |
+| ------- | ------------------ |
+|   1.1   | :heavy_check_mark: |
+|   1.0   | :white_check_mark: |
+
+
+## Reporting a Vulnerability
+
+Report a vulnerability by emailing me at my [email](mailto:zmanmustang2017@gmail.com)
+
+You can expect an update within 48 hours.

@@ -5,6 +5,9 @@ import time
 #The socket library is for getting web information. In this case it's used for getting your computer's ip address to help you connect to the server.
 import socket
 
+def spformatter():
+  os.system("python3 spformatter.py")
+
 #These help to install or delete the server files.
 def paper():
   os.system('test -e PServer.jar && sudo rm PServer.jar || wget -O PServer.jar "https://papermc.io/api/v2/projects/paper/versions/1.16.5/builds/457/downloads/paper-1.16.5-457.jar"')
@@ -83,7 +86,6 @@ def EULA():
     
     #Re-writes the text inside of the User License Agreement file as to accept it.
     rf.write("#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).\n")
-    rf.write("#Tue Feb 02 17:36:11 EST 2021\n")
     rf.write("eula=true")
     
     #Closes and saves the file.
@@ -162,6 +164,17 @@ def EULA():
         vanilla()
         
       exit()
+
+format = input("Would you like to format the server.properties file? (yes/no/help) ").lower()
+
+def frmt():
+  if format == "yes":
+    spformatter()
+  elif format == "no":
+    pass
+  elif format == "help":
+    input("The server.properties customizes how the server runs.")
+    frmt()
 
 #Runs the eula acceptance code.
 EULA()

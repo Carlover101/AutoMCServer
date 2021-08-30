@@ -1,8 +1,8 @@
 cd ~
-cd AutoMCServer13
+cd AutoMCServer-main
 clear
 
-if [ -d "/home/runner/AutoMCServer13/Minecraft_Server" ]
+if [ -d "~/AutoMCServer-main/Minecraft_Server" ]
 then
   cd Minecraft_Server
   if test -e "PServer-1.16.5.jar"
@@ -41,7 +41,7 @@ then
 else
   mkdir Minecraft_Server
   cd Minecraft_Server
-  if [ ! -d "/home/runner/AutoMCServer13/Minecraft_Server"]
+  if [ ! -d "~/AutoMCServer-main/Minecraft_Server"]
   then
     echo "Failed to create folder 'Minecraft_Server/'."
     sleep .5s

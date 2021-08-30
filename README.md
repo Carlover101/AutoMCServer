@@ -8,7 +8,7 @@ Thanks for using my work!
 
 # Instructions
 
-# **Warning: This only works on linux/debian devices**.  Windows is in developement.
+# **Warning: This only works on linux/debian devices**.  Windows and Mac OS are currently in developement.
 
 After you download the project:
 1. Extract it into whatever folder you want to.
@@ -45,11 +45,12 @@ ________________________________________________________________________________
 
 :x: = not supported
 
-| Version | Supported          |
-| ------- | ------------------ |
-|   1.2   | :heavy_check_mark: |
-|   1.1   | :heavy_check_mark: |
-|   1.0   | :white_check_mark: |
+| Version | Supported  |
+| ------- | ---------- |
+|Pre - 1.3| ✔️ |
+|   1.2   | ❎ |
+|   1.1   | ❎ |
+|   1.0   | ❎ |
 
 
 ## Reporting a Vulnerability

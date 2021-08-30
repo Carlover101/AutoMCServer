@@ -9,44 +9,95 @@ def spformatter():
   os.system("python3 spformatter.py")
 
 #These help to install or delete the server files.
-def paper():
-  os.system('test -e PServer.jar && sudo rm PServer.jar || wget -O PServer.jar "https://papermc.io/api/v2/projects/paper/versions/1.16.5/builds/457/downloads/paper-1.16.5-457.jar"')
+class onedotsixteen():
+  def paper():
+    os.system("cd ~/AutoMCServer13/")
+    os.system("chmod +x P1.16.5.sh")
+    os.system("./P1.16.5.sh")
 
-def spigot():
-  os.system('test -e "SServer.jar" && sudo rm SServer.jar || wget -O SServer.jar "https://getbukkit.org/get/RD0y91OTotryPrElNQe4ovBLDNweoO5Z"')
-  
-def bukkit():
-  os.system('test -e "BServer.jar" && sudo rm BServer.jar || wget -O BServer.jar "https://cdn.getbukkit.org/craftbukkit/craftbukkit-1.16.5.jar"')
-  
-def vanilla():
-  os.system('test -e "VServer.jar" && sudo rm VServer.jar || wget -O VServer.jar "https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar"')
+  def spigot():
+    os.system("cd ~/AutoMCServer13/")
+    os.system("chmod +x S1.16.5.sh")
+    os.system("./S1.16.5.sh")
+    
+  def bukkit():
+    os.system("cd ~/AutoMCServer13/")
+    os.system("chmod +x B1.16.5.sh")
+    os.system("./B1.16.5.sh")
+    
+  def vanilla():
+    os.system("cd ~/AutoMCServer13/")
+    os.system("chmod +x V1.16.5.sh")
+    os.system("./V1.16.5.sh")
 
+class onedotseventeen():
+  def paper():
+    os.system("cd ~/AutoMCServer13/")
+    os.system("chmod +x P1.17.1.sh")
+    os.system("./P1.17.1.sh")
+
+  def spigot():
+    os.system("cd ~/AutoMCServer13/")
+    os.system("chmod +x S1.17.1.sh")
+    os.system("./S1.17.1.sh")
+    
+  def bukkit():
+    os.system("cd ~/AutoMCServer13/")
+    os.system("chmod +x B1.17.1.sh")
+    os.system("./B1.17.1.sh")
+    
+  def vanilla():
+    os.system("cd ~/AutoMCServer13/")
+    os.system("chmod +x V1.17.1.sh")
+    os.system("./V1.17.1.sh")
 #This makes the ServerStart.sh file executable.
 os.system("chmod +x ServerStart.sh")
 
+ver = input("What Minecraft version would you like? (1.16.5/1.17.1)")
 #Lets you choose what type of server you want.
 vpsb = input("Would you like a 'Paper', 'Spigot', 'Bukkit', or 'Vanilla' Server? Choose 'Vanilla' if you don't know. ")
 
 #This helps to install the Paper version of Minecraft Servers.
-if vpsb == "Paper":
-  paper()
-  jar = "paper"
+if ver == "1.16.5":
+  if vpsb.lower() == "paper":
+    onedotsixteen.paper()
+    jar = "paper"
 
-#This helps to install the Spigot version of Minecraft Servers.
-elif vpsb == "Spigot":
-  spigot()
-  jar = "spigot"
+  #This helps to install the Spigot version of Minecraft Servers.
+  elif vpsb.lower() == "spigot":
+    onedotsixteen.spigot()
+    jar = "spigot"
+    
+  #This helps to install the Bukkit version of Minecraft Servers.
+  elif vpsb.lower() == "bukkit":
+    onedotsixteen.bukkit()
+    jar = "bukkit"
+    
+  #This helps to install the Vanilla version of Minecraft Servers.
+  elif vpsb.lower() == "vanilla":
+    onedotsixteen.vanilla() 
+    jar = "vanilla"
   
-#This helps to install the Bukkit version of Minecraft Servers.
-elif vpsb == "Bukkit":
-  bukkit()
-  jar = "bukkit"
-  
-#This helps to install the Vanilla version of Minecraft Servers.
-elif vpsb == "Vanilla":
-  vanilla() 
-  jar = "vanilla"
-  
+elif ver == "1.17.1":
+  if vpsb.lower() == "paper":
+    onedotseventeen.paper()
+    jar = "paper"
+
+  #This helps to install the Spigot version of Minecraft Servers.
+  elif vpsb.lower() == "spigot":
+    onedotseventeen.spigot()
+    jar = "spigot"
+    
+  #This helps to install the Bukkit version of Minecraft Servers.
+  elif vpsb.lower() == "bukkit":
+    onedotseventeen.bukkit()
+    jar = "bukkit"
+    
+  #This helps to install the Vanilla version of Minecraft Servers.
+  elif vpsb.lower() == "vanilla":
+    onedotseventeen.vanilla() 
+    jar = "vanilla"
+
 #Gets your computer ip address to help with connecting to the server later.
 def get_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -113,16 +164,16 @@ def EULA():
       
       #Checks which server type you chose and deletes it.
       if jar == "paper":
-        paper()
+        onedotsixteen.paper()
         
       elif jar == "spigot":
-        spigot()
+        onedotsixteen.spigot()
         
       elif jar == "bukkit":
-        bukkit()
+        onedotsixteen.bukkit()
         
       elif jar == "vanilla":
-        vanilla()
+        onedotsixteen.vanilla()
         
       #Exits the script.
       exit()
@@ -152,16 +203,16 @@ def EULA():
       print("Aborting...")
       
       if jar == "paper":
-        paper()
+        onedotsixteen.paper()
         
       elif jar == "spigot":
-        spigot()
+        onedotsixteen.spigot()
         
       elif jar == "bukkit":
-        bukkit()
+        onedotsixteen.bukkit()
         
       elif jar == "vanilla":
-        vanilla()
+        onedotsixteen.vanilla()
         
       exit()
 

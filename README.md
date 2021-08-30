@@ -11,7 +11,7 @@ Thanks for using my work!
 # **Warning: This only works on linux/debian devices**.  Windows and Mac OS are currently in developement.
 
 After you download the project:
-1. Extract it into whatever folder you want to.
+1. Extract it into your downloads folder.
 
 2. Open the command line and navigate to the directory.
 

@@ -2,11 +2,9 @@
 
 You will find a more detailed desciption of the Automatic Minecraft Server project here.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Installation
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+First download the latest version from one of the links above or choose a specific version from the [project site](https://github.com/Carlover101/AutoMCServer/releases).
 
 ```markdown
 Syntax highlighted code block

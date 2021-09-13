@@ -54,6 +54,8 @@ python3 script_main.py
 1. Type these commands in the terminal to download Python 3.6:
 
 ```
+sudo apt install software-properties-common
+sudo apt-add-repository ppa:deadsnakes/ppa
 sudo apt update
 sudo apt install python3.6
 ```

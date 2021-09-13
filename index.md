@@ -11,15 +11,15 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
 
 - Zip file:
 
-- Look for an "extract" or "extract here" option.
-- If both of the options don't exist, open the terminal and type:
+  - Look for an "extract" or "extract here" option.
+  - If both of the options don't exist, open the terminal and type:
 
 ```
 cd ~/Downloads/
 unzip AutoMCServer-main.zip
 ```
 
-- If the "unzip" command is not recognized, then type this command and then retry the first two.
+  - If the "unzip" command is not recognized, then type this command and then retry the first two.
 
 ```
 sudo apt install unzip
@@ -27,8 +27,8 @@ sudo apt install unzip
 
 - Tar file:
 
-- Look for an "extract" or "extract here" option.
-- If both of the options don't exist, open the terminal and type:
+  - Look for an "extract" or "extract here" option.
+  - If both of the options don't exist, open the terminal and type:
 
 ```
 cd ~/Downloads/

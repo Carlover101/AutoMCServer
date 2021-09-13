@@ -3,7 +3,7 @@
 You will find a more detailed desciption of the Automatic Minecraft Server project here.
 
 ### Index
-[Installation](https://carlover101.github.io/AutoMCServer/#installation) | [Running the Script](https://carlover101.github.io/AutoMCServer/#running-the-starting-script) | [Installing Python](https://carlover101.github.io/AutoMCServer/#installing-python) | [Navigating the Script](https://carlover101.github.io/AutoMCServer/#navigating-the-starting-script)
+[Installation](https://carlover101.github.io/AutoMCServer/#installation) | [Running the Script](https://carlover101.github.io/AutoMCServer/#running-the-starting-script) | [Installing Python](https://carlover101.github.io/AutoMCServer/#installing-python) | [Navigating the Script](https://carlover101.github.io/AutoMCServer/#navigating-the-starting-script) | [Troubleshooting and Issues](https://carlover101.github.io/AutoMCServer/#troubleshooting)
 
 ### Installation
 
@@ -43,25 +43,53 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
 2. Type cd ~/Downloads/AutoMCServer-main
 3. Running the script:
    - If you have Python already installed, run:
-     ```
-     python3 script_main.py
-     ```
+
+```
+python3 script_main.py
+```
    - If it is succesful, then skip to [Navigating the Starting Script](https://carlover101.github.io/AutoMCServer/#navigating-the-starting-script), otherwise try the steps below if Python is not installed.
 
 #### Installing Python
 
-1. Copy this link into a new tab to go to the Python downloads page: https://python.org/downloads/source
-2. Choose the preferred version (over 3.5) and download it.
-3. If you have not already done so, open your terminal and type:
-   ```
-   cd ~/Downloads/
-   tar --extract -xf Python-3.(whichever version you chose).tar.gz
-   cd Python-3.(Whichever version you chose)/
-   ./configure
-   sudo make test
-   sudo make install
-   ```
-   - After the installation is complete, go back to [Running the Starting Script](https://carlover101.github.io/AutoMCServer/#running-the-starting-script)
+1. Type these commands in the terminal to download Python 3.6:
+
+```
+sudo apt update
+sudo apt install python3.6
+```
+
+2. To install Python 3.8 if you so wish, type:
+
+```
+sudo apt install software-properties-common
+sudo apt-add-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.8
+```
+
+- Further docummentation provided at [this site](https://docs.python-guide.org/starting/install3/linux/)
+
+- After the installation is complete, go back to [Running the Starting Script](https://carlover101.github.io/AutoMCServer/#running-the-starting-script)
 
 
 ### Navigating the Starting Script
+
+1. First, after you have run the command the start the script, the terminal will prompt you to choose which Minecraft version you want. Currently only 1.16.5 and 1.17.1 are available.
+2. Once you have chosen that, the terminal will prompt you to chose which server type you want. Currently: Paper, Spigot, Bukkit, and Vanilla.
+3. Once you have chosen which one, the terminal will download the correct file and proceed to start the server to generate the "EULA.txt" file.
+4. The terminal will then prompt you to accept the EULA (End user license agreement) found [Here](https://account.mojang.com/documents/minecraft_eula)
+5. Once you have accepted, the terminal will start the server and give you the ip to type into the address bar on your Minecraft Client.
+6. If nothing goes wrong, then the server will start.
+
+### Troubleshooting
+
+Problem: 
+- Program errors out when trying to download jar files.
+
+Solution:
+- Make sure you extracted the zip or tar.gz file to your Downloads folder and not somwhere else.
+
+
+###### Report a Problem [Here](https://github.com/Carlover101/AutoMCServer/issues)
+
+- Expect an update as soon as possible, but just to be sure, you can turn on notifications for the project to get notified when there is an update.

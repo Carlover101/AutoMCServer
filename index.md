@@ -10,56 +10,25 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
 4. Extract the file:
 
 - Zip file:
-
   - Look for an "extract" or "extract here" option.
   - If both of the options don't exist, open the terminal and type:
 
-```
-cd ~/Downloads/
-unzip AutoMCServer-main.zip
-```
+  ```
+  cd ~/Downloads/
+  unzip AutoMCServer-main.zip
+  ```
 
   - If the "unzip" command is not recognized, then type this command and then retry the first two.
 
-```
-sudo apt install unzip
-```
+  ```
+  sudo apt install unzip
+  ```
 
 - Tar file:
-
   - Look for an "extract" or "extract here" option.
   - If both of the options don't exist, open the terminal and type:
 
-```
-cd ~/Downloads/
-tar --extract -xf AutoMCServer-main.tar.zf
-```
-
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Carlover101/AutoMCServer/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  ```
+  cd ~/Downloads/
+  tar --extract -xf AutoMCServer-main.tar.zf
+  ```

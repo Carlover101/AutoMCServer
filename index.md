@@ -2,6 +2,9 @@
 
 You will find a more detailed desciption of the Automatic Minecraft Server project here.
 
+### Index
+[Installation](https://carlover101.github.io/AutoMCServer/#Installation)
+
 ### Installation
 
 1. Download the latest version from one of the links above or choose a specific version from the [project site](https://github.com/Carlover101/AutoMCServer/releases).

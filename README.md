@@ -1,4 +1,4 @@
-# AutoMCServer
+# AutoMCServer | Warning: This markdown file is not updated regularly. For up-to-date information, use the [Wiki](https://carlover101.github.io/AutoMCServer/)
 
 This is a project for those who don't know have the technical knowledge to create a Minecraft Server or those who don't want to.
 

@@ -11,14 +11,25 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
    a. Zip file:
       i. Look for an "extract" or "extract here" option.
       i. If both of the options don't exist, open the terminal and type:
-      ```markdown
-      cd Downloads/
-      unzip AutoMCServer-main.zip
-      ```
+      
+         ```markdown
+         cd ~/Downloads/
+         unzip AutoMCServer-main.zip
+         ```
       - If the "unzip" command is not recognized, then type this command and then retry the first two.
+
       ```markdown
       sudo apt install unzip
       ```
+      
+    b. Tar file:
+       i. Look for an "extract" or "extract here" option.
+       i. If both of the options don't exist, open the terminal and type:
+       
+         ```markdown
+         cd ~/Downloads/
+         tar --extract -xf AutoMCServer-main.tar.zf
+         ```
 
 
 ```markdown

@@ -49,7 +49,7 @@ python3 script_main.py
 ```
    - If it is succesful, then skip to [Navigating the Starting Script](https://carlover101.github.io/AutoMCServer/#navigating-the-starting-script), otherwise try the steps below if Python is not installed.
 
-#### Installing Python
+### Installing Python
 
 1. Type these commands in the terminal to download Python 3.6:
 

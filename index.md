@@ -3,7 +3,7 @@
 You will find a more detailed desciption of the Automatic Minecraft Server project here.
 
 ### Index
-[Installation](https://carlover101.github.io/AutoMCServer/#installation)
+[Installation](https://carlover101.github.io/AutoMCServer/#installation) | [Running the Script](https://carlover101.github.io/AutoMCServer/#running-the-starting-script) | [Installing Python](https://carlover101.github.io/AutoMCServer/#installing-python) | [Navigating the Script](https://carlover101.github.io/AutoMCServer/#navigating-the-starting-script)
 
 ### Installation
 
@@ -46,7 +46,7 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
      ```
      python3 script_main.py
      ```
-   - If it is succesful, then skip to [Navigating the Starting Script](https://carlover101.github.io/AutoMCServer/#navigating the starting script), otherwise try the steps below if Python is not installed.
+   - If it is succesful, then skip to [Navigating the Starting Script](https://carlover101.github.io/AutoMCServer/#navigating-the-starting-script), otherwise try the steps below if Python is not installed.
 
 #### Installing Python
 
@@ -61,7 +61,7 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
    sudo make test
    sudo make install
    ```
-   - After the installation is complete, go back.
+   - After the installation is complete, go back to [Running the Starting Script](https://carlover101.github.io/AutoMCServer/#running-the-starting-script)
 
 
 ### Navigating the Starting Script

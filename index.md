@@ -35,3 +35,33 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
   cd ~/Downloads/
   tar --extract -xf AutoMCServer-main.tar.zf
   ```
+  - And now you have succesfully installed (extracted) the package! All you have to do now is run the script.
+
+### Running the Starting Script
+
+1. If you haven't already done so, open your terminal.
+2. Type cd ~/Downloads/AutoMCServer-main
+3. Running the script:
+   - If you have Python already installed, run:
+     ```
+     python3 script_main.py
+     ```
+   - If it is succesful, then skip to [Navigating the Starting Script](https://carlover101.github.io/AutoMCServer/#navigating the starting script), otherwise try the steps below if Python is not installed.
+
+#### Installing Python
+
+1. Copy this link into a new tab to go to the Python downloads page: https://python.org/downloads/source
+2. Choose the preferred version (over 3.5) and download it.
+3. If you have not already done so, open your terminal and type:
+   ```
+   cd ~/Downloads/
+   tar --extract -xf Python-3.(whichever version you chose).tar.gz
+   cd Python-3.(Whichever version you chose)/
+   ./configure
+   sudo make test
+   sudo make install
+   ```
+   - After the installation is complete, go back.
+
+
+### Navigating the Starting Script

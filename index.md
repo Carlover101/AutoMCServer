@@ -8,7 +8,9 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
 2. Open whichever files app you use and navigate to your Downloads folder.
 3. Right-click the "AutoMCSever-main((.zip)or(.tar.gz))"
 4. Extract the file:
+
    a. Zip file:
+
       i. Look for an "extract" or "extract here" option.
       i. If both of the options don't exist, open the terminal and type:
       
@@ -16,6 +18,7 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
          cd ~/Downloads/
          unzip AutoMCServer-main.zip
          ```
+      
       - If the "unzip" command is not recognized, then type this command and then retry the first two.
 
       ```markdown
@@ -23,6 +26,7 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
       ```
       
     b. Tar file:
+ 
        i. Look for an "extract" or "extract here" option.
        i. If both of the options don't exist, open the terminal and type:
        

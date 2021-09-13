@@ -3,7 +3,7 @@
 You will find a more detailed desciption of the Automatic Minecraft Server project here.
 
 ### Index
-[Installation](https://carlover101.github.io/AutoMCServer/#Installation)
+[Installation](https://carlover101.github.io/AutoMCServer/index.md#Installation)
 
 ### Installation
 

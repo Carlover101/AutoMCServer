@@ -1,5 +1,5 @@
 theme: jekyll-theme-modernist
 show_downloads: true
 github:
-  zip_url: https://github.com/Carlover101/AutoMCServer.git
-  tar_url: https://github.com/Carlover101/AutoMCServer/archive/refs/tags/1.3.tar.gz
+  zip_url: https://github.com/Carlover101/AutoMCServer/archive/refs/heads/main.zip
+  tar_url: https://github.com/Carlover101/AutoMCServer/archive/refs/heads/main.tar.gz

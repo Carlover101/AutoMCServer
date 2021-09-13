@@ -90,6 +90,6 @@ Solution:
 - Make sure you extracted the zip or tar.gz file to your Downloads folder and not somwhere else.
 
 
-###### Report a Problem [Here](https://github.com/Carlover101/AutoMCServer/issues)
+#### Report a Problem [Here](https://github.com/Carlover101/AutoMCServer/issues)
 
 - Expect an update as soon as possible, but just to be sure, you can turn on notifications for the project to get notified when there is an update.

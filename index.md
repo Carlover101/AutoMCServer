@@ -60,7 +60,7 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
    sudo apt install python3.6
    ```
 
-  2. To install Python 3.8 if you so wish, type:
+  2. To install Python 3.8, if you so wish, type:
 
    ```
    sudo apt install software-properties-common

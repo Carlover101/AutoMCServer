@@ -45,7 +45,7 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
    - If you have Python already installed, run:
 
 ```
-python3 script_main.py
+python3 main.py
 ```
    - If it is succesful, then skip to [Navigating the Starting Script](https://carlover101.github.io/AutoMCServer/#navigating-the-starting-script), otherwise try the steps below if Python is not installed.
 

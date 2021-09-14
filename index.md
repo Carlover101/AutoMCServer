@@ -91,6 +91,12 @@ Problem:
 Solution:
 - Make sure you extracted the zip or tar.gz file to your Downloads folder and not somwhere else.
 
+Problem:
+- Python prints and error when trying to run the script_main.py file for versions 1.3 and below.
+
+Soltuion:
+- This usually happens when you are using a version of Python below 3.6. Refer to [Installing Python](https://carlover101.github.io/AutoMCServer/#installing-python) to update the version.
+
 
 #### Report a Problem [Here](https://github.com/Carlover101/AutoMCServer/issues)
 

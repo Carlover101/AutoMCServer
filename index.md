@@ -44,30 +44,30 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
 3. Running the script:
    - If you have Python already installed, run:
 
-```
-python3 main.py
-```
+  ```
+  python3 main.py
+  ```
    - If it is succesful, then skip to [Navigating the Starting Script](https://carlover101.github.io/AutoMCServer/#navigating-the-starting-script), otherwise try the steps below if Python is not installed.
 
 ### Installing Python
 
 1. Type these commands in the terminal to download Python 3.6:
 
-```
-sudo apt install software-properties-common
-sudo apt-add-repository ppa:deadsnakes/ppa
-sudo apt update
-sudo apt install python3.6
-```
+  ```
+  sudo apt install software-properties-common
+  sudo apt-add-repository ppa:deadsnakes/ppa
+  sudo apt update
+  sudo apt install python3.6
+  ```
 
 2. To install Python 3.8 if you so wish, type:
 
-```
-sudo apt install software-properties-common
-sudo apt-add-repository ppa:deadsnakes/ppa
-sudo apt update
-sudo apt install python3.8
-```
+  ```
+  sudo apt install software-properties-common
+  sudo apt-add-repository ppa:deadsnakes/ppa
+  sudo apt update
+  sudo apt install python3.8
+  ```
 
 - Further docummentation provided at [this site](https://docs.python-guide.org/starting/install3/linux/)
 

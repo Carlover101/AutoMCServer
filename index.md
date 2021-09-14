@@ -51,23 +51,23 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
 
 ### Installing Python
 
-  1. Type these commands in the terminal to download Python 3.6:
+  - Type these commands in the terminal to download Python 3.6:
 
-    ```
-    sudo apt install software-properties-common
-    sudo apt-add-repository ppa:deadsnakes/ppa
-    sudo apt update
-    sudo apt install python3.6
-    ```
+   ```
+   sudo apt install software-properties-common
+   sudo apt-add-repository ppa:deadsnakes/ppa
+   sudo apt update
+   sudo apt install python3.6
+   ```
 
-  2. To install Python 3.8, if you so wish, type:
+  - To install Python 3.8, if you so wish, type:
 
-    ```
-    sudo apt install software-properties-common
-    sudo apt-add-repository ppa:deadsnakes/ppa
-    sudo apt update
-    sudo apt install python3.8
-    ```
+   ```
+   sudo apt install software-properties-common
+   sudo apt-add-repository ppa:deadsnakes/ppa
+   sudo apt update
+   sudo apt install python3.8
+   ```
 
 - Further docummentation provided at [this site](https://docs.python-guide.org/starting/install3/linux/)
 

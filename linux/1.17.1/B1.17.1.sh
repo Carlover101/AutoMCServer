@@ -2,7 +2,7 @@ cd ~
 cd AutoMCServer-main
 clear
 
-if [ -d "~/AutoMCServer-main/Minecraft_Server" ]
+if [ -d "~/AutoMCServer-linux/linux/Minecraft_Server" ]
 then
   cd Minecraft_Server
   if test -e "BServer-1.17.1.jar"
@@ -41,7 +41,7 @@ then
 else
   mkdir Minecraft_Server
   cd Minecraft_Server
-  if [ ! -d "~/AutoMCServer-main/Minecraft_Server"]
+  if [ ! -d "~/AutoMCServer-linux/linux/Minecraft_Server"]
   then
     echo "Failed to create folder 'Minecraft_Server/'."
     sleep .5s

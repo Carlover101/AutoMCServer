@@ -11,43 +11,43 @@ def spformatter():
 #These help to install or delete the server files.
 class onedotsixteen():
   def paper():
-    os.system("cd ~/AutoMCServer-main/1.16.5/")
+    os.system("cd ~/AutoMCServer-linux/linux/1.16.5/")
     os.system("chmod +x P1.16.5.sh")
     os.system("./P1.16.5.sh")
 
   def spigot():
-    os.system("cd ~/AutoMCServer-main/1.16.5/")
+    os.system("cd ~/AutoMCServer-linux/linux/1.16.5/")
     os.system("chmod +x S1.16.5.sh")
     os.system("./S1.16.5.sh")
     
   def bukkit():
-    os.system("cd ~/AutoMCServer-main/1.16.5/")
+    os.system("cd ~/AutoMCServer-linux/linux/1.16.5/")
     os.system("chmod +x B1.16.5.sh")
     os.system("./B1.16.5.sh")
     
   def vanilla():
-    os.system("cd ~/AutoMCServer-main/1.16.5/")
+    os.system("cd ~/AutoMCServer-linux/linux/1.16.5/")
     os.system("chmod +x V1.16.5.sh")
     os.system("./V1.16.5.sh")
 
 class onedotseventeen():
   def paper():
-    os.system("cd ~/AutoMCServer-main/1.17.1/")
+    os.system("cd ~/AutoMCServer-linux/linux/main/1.17.1/")
     os.system("chmod +x P1.17.1.sh")
     os.system("./P1.17.1.sh")
 
   def spigot():
-    os.system("cd ~/AutoMCServer-main/1.17.1/")
+    os.system("cd ~/AutoMCServer-linux/linux/1.17.1/")
     os.system("chmod +x S1.17.1.sh")
     os.system("./S1.17.1.sh")
     
   def bukkit():
-    os.system("cd ~/AutoMCServer-main/1.17.1/")
+    os.system("cd ~/AutoMCServer-linux/linux/1.17.1/")
     os.system("chmod +x B1.17.1.sh")
     os.system("./B1.17.1.sh")
     
   def vanilla():
-    os.system("cd ~/AutoMCServer-main/1.17.1/")
+    os.system("cd ~/AutoMCServer-linux/linux/1.17.1/")
     os.system("chmod +x V1.17.1.sh")
     os.system("./V1.17.1.sh")
 #This makes the ServerStart.sh file executable.
@@ -121,7 +121,7 @@ ip = get_ip()
 #Formats files for the Minecraft Server and Starts it.
 def EULA():
   #Runs the bash script to generate the eula.txt file.
-  os.system("./ServerStart.sh")
+  os.system("./linux/ServerStart.sh")
   
   #Clears the terminal screen.
   os.system("clear")

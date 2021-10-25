@@ -1,5 +1,5 @@
 cd ~
-cd AutoMCServer13
+cd AutoMCServer-linux
 cd Minecraft_Server
 
 if test -e "PServer-1.16.5.jar"; then

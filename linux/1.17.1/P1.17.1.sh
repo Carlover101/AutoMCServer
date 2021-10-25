@@ -1,5 +1,5 @@
 cd ~
-cd AutoMCServer-main
+cd AutoMCServer-linux/linux/
 clear
 
 if [ -d "~/AutoMCServer-linux/linux/Minecraft_Server" ]

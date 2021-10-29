@@ -102,6 +102,8 @@ def verchoose():
   else:
     print("That is not a valid option. Try again.")
     verchoose()
+    
+verchoose()
 
 #Gets your computer ip address to help with connecting to the server later.
 def get_ip():

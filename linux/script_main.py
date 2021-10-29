@@ -53,50 +53,55 @@ class onedotseventeen():
 #This makes the ServerStart.sh file executable.
 os.system("chmod +x ServerStart.sh")
 
-ver = input("What Minecraft version would you like? (1.16.5/1.17.1)")
-#Lets you choose what type of server you want.
-vpsb = input("Would you like a 'Paper', 'Spigot', 'Bukkit', or 'Vanilla' Server? Choose 'Vanilla' if you don't know. ")
+def verchoose():
+  ver = input("What Minecraft version would you like? (1.16.5/1.17.1)")
+  #Lets you choose what type of server you want.
+  vpsb = input("Would you like a 'Paper', 'Spigot', 'Bukkit', or 'Vanilla' Server? Choose 'Vanilla' if you don't know. ")
 
-#This helps to install the Paper version of Minecraft Servers.
-if ver == "1.16.5":
-  if vpsb.lower() == "paper":
-    onedotsixteen.paper()
-    jar = "paper"
+  #This helps to install the Paper version of Minecraft Servers.
+  if ver == "1.16.5":
+    if vpsb.lower() == "paper":
+      onedotsixteen.paper()
+      jar = "paper"
 
-  #This helps to install the Spigot version of Minecraft Servers.
-  elif vpsb.lower() == "spigot":
-    onedotsixteen.spigot()
-    jar = "spigot"
-    
-  #This helps to install the Bukkit version of Minecraft Servers.
-  elif vpsb.lower() == "bukkit":
-    onedotsixteen.bukkit()
-    jar = "bukkit"
-    
-  #This helps to install the Vanilla version of Minecraft Servers.
-  elif vpsb.lower() == "vanilla":
-    onedotsixteen.vanilla() 
-    jar = "vanilla"
-  
-elif ver == "1.17.1":
-  if vpsb.lower() == "paper":
-    onedotseventeen.paper()
-    jar = "paper"
+    #This helps to install the Spigot version of Minecraft Servers.
+    elif vpsb.lower() == "spigot":
+      onedotsixteen.spigot()
+      jar = "spigot"
 
-  #This helps to install the Spigot version of Minecraft Servers.
-  elif vpsb.lower() == "spigot":
-    onedotseventeen.spigot()
-    jar = "spigot"
-    
-  #This helps to install the Bukkit version of Minecraft Servers.
-  elif vpsb.lower() == "bukkit":
-    onedotseventeen.bukkit()
-    jar = "bukkit"
-    
-  #This helps to install the Vanilla version of Minecraft Servers.
-  elif vpsb.lower() == "vanilla":
-    onedotseventeen.vanilla() 
-    jar = "vanilla"
+    #This helps to install the Bukkit version of Minecraft Servers.
+    elif vpsb.lower() == "bukkit":
+      onedotsixteen.bukkit()
+      jar = "bukkit"
+
+    #This helps to install the Vanilla version of Minecraft Servers.
+    elif vpsb.lower() == "vanilla":
+      onedotsixteen.vanilla() 
+      jar = "vanilla"
+
+  elif ver == "1.17.1":
+    if vpsb.lower() == "paper":
+      onedotseventeen.paper()
+      jar = "paper"
+
+    #This helps to install the Spigot version of Minecraft Servers.
+    elif vpsb.lower() == "spigot":
+      onedotseventeen.spigot()
+      jar = "spigot"
+
+    #This helps to install the Bukkit version of Minecraft Servers.
+    elif vpsb.lower() == "bukkit":
+      onedotseventeen.bukkit()
+      jar = "bukkit"
+
+    #This helps to install the Vanilla version of Minecraft Servers.
+    elif vpsb.lower() == "vanilla":
+      onedotseventeen.vanilla() 
+      jar = "vanilla"
+
+  else:
+    print("That is not a valid option. Try again.")
+    verchoose()
 
 #Gets your computer ip address to help with connecting to the server later.
 def get_ip():

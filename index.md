@@ -85,14 +85,26 @@ You will find a more detailed desciption of the Automatic Minecraft Server proje
 
 ### Troubleshooting
 
+#### All Versions:
+
 Problem: 
 - Program errors out when trying to download jar files.
 
 Solution:
 - Make sure you extracted the zip or tar.gz file to your Downloads folder and not somwhere else.
 
+#### Versions 1.3.2 and below:
+
 Problem:
-- Python prints and error when trying to run the script_main.py file for versions 1.3 and below.
+- Program exits or prints error if Minecraft server version typed incorrectly.
+
+Solution:
+- Try restarting the program and make sure you type in the correct version. Use project versions [1.3.3](https://github.com/Carlover101/AutoMCServer/releases) and above
+
+#### Versions 1.3 and below
+
+Problem:
+- Python prints and error when trying to run the script_main.py file.
 
 Soltuion:
 - This usually happens when you are using a version of Python below 3.6. Refer to [Installing Python](https://carlover101.github.io/AutoMCServer/#installing-python) to update the version.

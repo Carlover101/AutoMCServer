@@ -31,7 +31,7 @@ then
     echo "Preparing to install."
     sleep 2s
     clear
-    wget -O PServer-1.17.1.jar "https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/351/downloads/paper-1.17.1-351.jar"
+    wget -O PServer-1.17.1.jar "https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/358/downloads/paper-1.17.1-358.jar"
     sleep 1s
     clear
     echo "Jar file download complete."
@@ -73,7 +73,7 @@ else
     echo "Preparing to install."
     sleep 2s
     clear
-    wget -O PServer-1.17.1.jar "https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/351/downloads/paper-1.17.1-351.jar"
+    wget -O PServer-1.17.1.jar "https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/358/downloads/paper-1.17.1-358.jar"
     sleep 1s
     clear
     echo "Jar file download complete."

@@ -31,7 +31,7 @@ then
     echo "Preparing to install."
     sleep 2s
     clear
-    wget -O VServer-1.17.1.jar "https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar"
+    wget -O VServer-1.17.1.jar "https://serverjars.com/api/fetchJar/vanilla/1.17.1"
     sleep 1s
     clear
     echo "Jar file download complete."
@@ -73,7 +73,7 @@ else
     echo "Preparing to install."
     sleep 2s
     clear
-    wget -O VServer-1.17.1.jar "https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar"
+    wget -O VServer-1.17.1.jar "https://serverjars.com/api/fetchJar/vanilla/1.17.1"
     sleep 1s
     clear
     echo "Jar file download complete."

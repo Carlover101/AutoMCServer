@@ -1,4 +1,4 @@
-# AutoMCServer | Warning: This markdown file is not updated regularly. For up-to-date information, use the [Wiki](https://carlover101.github.io/AutoMCServer/)
+# AutoMCServer | Refer the [Wiki](https://carlover101.github.io/AutoMCServer/) for more info.
 
 This is a project for those who don't know have the technical knowledge to create a Minecraft Server or those who don't want to.
 
@@ -8,7 +8,7 @@ Thanks for using my work!
 
 # Instructions
 
-# **Warning: This only works on linux/debian devices**.  Windows and Mac OS are currently in developement.
+# **Warning: This only works on linux/debian devices**.  Windows and Mac OS are currently unsupported.
 
 After you download the project:
 1. Extract it into your downloads folder.
@@ -17,17 +17,19 @@ After you download the project:
 
 3. Run **python3 script_main.py** in the terminal. Note - If you don't have Python installed, go to [python.org](https://www.python.org/downloads/) for help.
 
-4. When you are asked to choose between the four types of servers, choose the Vanilla option if you don't know what the others options are.
+4. When asked to choose a version, type in the preferred one, and hit enter.
 
-5. The terminal will then ask you if you want to accept the EULA, type **Yes** or **No**.
+5. When you are asked to choose between the four types of servers, choose the Vanilla option if you don't know what the others options are.
 
-6. After a few more seconds it should then start up the minecraft server.
+6. The terminal will then ask you if you want to accept the EULA, type **Yes** or **No**.
 
-7. Connect to it in minecraft by typing in the ip that the program will print out into the *server address* box.
+7. After a few more seconds it should then start up the minecraft server.
 
-8. It should then pop up. Note - If it does not pop up or it says *Can't Resolve Hostname*/*Can't Connect To Server* then you aren't plugged into LAN/Ethernet. Also, you can't use this server over Wi-fi if you want to make it public.
+8. Connect to it in minecraft by typing in the ip that the program will print out into the *server address* box.
 
-*If you want to download the files from the command line instead, then type* **cd ~/Downloads** *then* **wget -O AutoMCServer.zip "https://github.com/Carlover101/AutoMCServer/archive/main.zip"** *and it will download the same files.*
+9. It should then pop up. Note - If it does not pop up or it says *Can't Resolve Hostname*/*Can't Connect To Server* then you aren't plugged into LAN/Ethernet. Also, you can't use this server over Wi-fi if you want to make it public.
+
+*If you want to download the files from the command line instead, then type* **cd ~/Downloads** *then* **wget -O AutoMCServer.zip "https://github.com/Carlover101/AutoMCServer/archive/refs/heads/linux.zip"** *and it will download the same files.*
 
 # Thanks Again! And, remember, questions/comments are appreciated.
 
@@ -41,12 +43,13 @@ ________________________________________________________________________________
 
 ✔️ = supported
 
-✅ = last security update
-
 ❎ = not supported
 
 | Version | Supported |
 | ------- | --------- |
+|  1.3.3  | ✔️ |
+|  1.3.2  | ✔️ |
+|  1.3.1  | ✔️ |
 |   1.3   | ✔️ |
 |   1.2   | ❎ |
 |   1.1   | ❎ |
